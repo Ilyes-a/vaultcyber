@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "33fc37abc3796e4e",
+    "type": "split",
+    "children": [
+      {
+        "id": "b9cbb73bd21bf74a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "570aed11331356e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity manual/1. Blue team/Yara.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Yara"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6dced82c9ba30bfd",
+    "type": "split",
+    "children": [
+      {
+        "id": "45a411cce6260744",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f26a380b3c9a7de4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f1c7ddc460232b46",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "831e747d1ec5dcfd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 317.5
+  },
+  "right": {
+    "id": "36cd25c1e6332f1b",
+    "type": "split",
+    "children": [
+      {
+        "id": "075aa30fca15ca50",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f6a7b2035149c96",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for README"
+            }
+          },
+          {
+            "id": "3a5f9b82f2236381",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from README"
+            }
+          },
+          {
+            "id": "2e03d4362629a11b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6f24725113881f3e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "custom-sort:Toggle custom sorting": false,
+      "obsidian-importer:Open Importer": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "570aed11331356e7",
+  "lastOpenFiles": [
+    "Cybersecurity manual/1. Blue team/Splunk.md",
+    "Cybersecurity manual/1. Blue team/Snort.md",
+    "Cybersecurity manual/1. Blue team/OpenCTI.md",
+    "Cybersecurity manual/1. Blue team/1. LISTE Framework&Outils.md",
+    "Cybersecurity manual/2. Red team/1. LISTE Framework&Outils.md",
+    "Cybersecurity manual/2. Red team/SQLmap.md",
+    "Cybersecurity manual/2. Red team/OWASP TOP 10.md",
+    "Cybersecurity manual/2. Red team/Nmap.md",
+    "Cybersecurity manual/2. Red team/Metasploit.md",
+    "Cybersecurity manual/2. Red team/JohnTheRipper.md",
+    "Cybersecurity manual/2. Red team/Hydra.md",
+    "Cybersecurity manual/2. Red team/Hashcat.md",
+    "Cybersecurity manual/2. Red team/Gobuster.md",
+    "Cybersecurity manual/2. Red team/FFUF.md",
+    "Cybersecurity manual/2. Red team/Cyberchef.md",
+    "Cybersecurity manual/1. Blue team/Yara.md",
+    "Cybersecurity manual/1. Blue team/SOC details/1 Pyramid of Pain/6 TTPs (Tough).md",
+    "Cybersecurity manual/1. Blue team/SOC details/1 Pyramid of Pain/5 Tools (Challenging).md",
+    "Cybersecurity manual/1. Blue team/SOC details/1 Pyramid of Pain/4 Host Artifacts (Annoying).md",
+    "Cybersecurity manual/1. Blue team/SOC details/1 Pyramid of Pain/3 Domain Names (Simple).md",
+    "Cybersecurity manual/1. Blue team/SOC details/1 Pyramid of Pain/2 IP Address (Easy).md",
+    "Cybersecurity manual/1. Blue team/SOC details/1 Pyramid of Pain/1 Hash Values (Trivial).md",
+    "Cybersecurity manual/1. Blue team/SOC details/1 Pyramid of Pain/0 What is Pyramid of Pain.md",
+    "SOC cours/1 Cyber Threat Intelligence/0 Intro to Cyber Threat Intel/2 CTI Standards & Frameworks.md",
+    "SOC cours/1 Cyber Threat Intelligence/3 OpenCTI/1 OpenCTI Dashboard.md",
+    "SOC cours/1 Cyber Threat Intelligence/3 OpenCTI/0 OpenCTI & Data Model.md",
+    "Cybersecurity manual/1. Blue team/Vrac",
+    "assets/Pasted image 20250408203524.png",
+    "assets/Pasted image 20250408195605.png",
+    "assets/Pasted image 20250408183111.png",
+    "assets/0105-CS-Pyramid-Graphic.png",
+    "Cybersecurity manual/3. DevSecOps",
+    "Cybersecurity manual/2. Red team",
+    "Cybersecurity manual/1. Blue team",
+    "Cybersecurity manual",
+    "OUTILS",
+    "COURS",
+    "OUTILS/SOC/Untitled",
+    "OUTILS/SOC",
+    "DevSecOps",
+    "assets/Pasted image 20240729232521.png",
+    "assets/Pasted image 20240729232308.png",
+    "assets/Pasted image 20240729230955.png",
+    "assets/Pasted image 20240729230930.png",
+    "assets/Pasted image 20240729230910.png",
+    "assets/Pasted image 20240729225711.png"
+  ]
+}
