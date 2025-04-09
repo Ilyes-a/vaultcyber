@@ -2,6 +2,23 @@
 
 ## 📜 **Commandes Clés**
 
+
+Commande Lancer snort avec un fichier de config et le mode full avec le log qui s'écrit dans le directory actif :
+
+```
+snort -c local.rules -A full -l . 
+```
+
+et sur un fichier pcap :
+
+```
+snort -c local.rules -A full -l . -r fichier.pcap
+```
+
+
+
+# Détails
+
 ### **Version & Configuration**
 
 |Commande|Description|
