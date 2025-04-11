@@ -1,4 +1,4 @@
-# 🔐 **Mimikatz Cheat Sheet**
+# **Mimikatz Cheat Sheet**
 
 ## **Commandes de base**
 

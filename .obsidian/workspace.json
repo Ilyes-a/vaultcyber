@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity manual/2. Red team/wpscan.md",
+                "file": "Cybersecurity manual/1. Blue team/zeek.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "wpscan"
+              "title": "zeek"
             }
           }
         ]
@@ -174,8 +174,13 @@
   },
   "active": "c84d03041c47875f",
   "lastOpenFiles": [
-    "Cybersecurity manual/2. Red team/SQLmap.md",
-    "Cybersecurity manual/2. Red team/wpscan.md",
+    "Cybersecurity manual/1. Blue team/Yara.md",
+    "Cybersecurity manual/1. Blue team/Splunk.md",
+    "Cybersecurity manual/1. Blue team/Snort.md",
+    "Cybersecurity manual/1. Blue team/OpenCTI.md",
+    "Cybersecurity manual/1. Blue team/Nessus tenable.md",
+    "Cybersecurity manual/1. Blue team/1. LISTE Framework&Outils.md",
+    "Cybersecurity manual/1. Blue team/zeek.md",
     "Cybersecurity manual/2. Red team/1. LISTE Framework&Outils.md",
     "Cybersecurity manual/2. Red team/aircrack.md",
     "Cybersecurity manual/2. Red team/Cyberchef.md",
@@ -189,17 +194,13 @@
     "Cybersecurity manual/2. Red team/Mimikatz.md",
     "Cybersecurity manual/2. Red team/Nmap.md",
     "Cybersecurity manual/2. Red team/OWASP TOP 10.md",
-    "Cybersecurity manual/1. Blue team/1. LISTE Framework&Outils.md",
+    "Cybersecurity manual/2. Red team/SQLmap.md",
+    "Cybersecurity manual/2. Red team/wpscan.md",
+    "Cybersecurity manual/1. Blue team/Zeek_Cheat_Sheet.md",
+    "Cybersecurity manual/1. Blue team/Zeek.md",
+    "Cybersecurity manual/1. Blue team/SOC details/Untitled.md",
     "Cybersecurity manual/DevSecOps",
     "Cybersecurity manual/2. Red team/Untitled.md",
-    "Cybersecurity manual/1. Blue team/Snort.md",
-    "Cybersecurity manual/1. Blue team/Yara.md",
-    "Cybersecurity manual/1. Blue team/Splunk.md",
-    "Cybersecurity manual/1. Blue team/OpenCTI.md",
-    "README.md",
-    "Cybersecurity manual/1. Blue team/SOC details/1 Pyramid of Pain/6 TTPs (Tough).md",
-    "Cybersecurity manual/1. Blue team/SOC details/1 Pyramid of Pain/5 Tools (Challenging).md",
-    "Cybersecurity manual/1. Blue team/SOC details/1 Pyramid of Pain/4 Host Artifacts (Annoying).md",
     "Cybersecurity manual/1. Blue team/Vrac",
     "assets/Pasted image 20250408203524.png",
     "assets/Pasted image 20250408195605.png",

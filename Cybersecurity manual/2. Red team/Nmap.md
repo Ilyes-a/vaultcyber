@@ -1,4 +1,4 @@
-# 🔍 Nmap Cheat Sheet 
+#  Nmap Cheat Sheet 
 
 ##  Commandes les plus utiles
 ➡️ Scan de base (ports TCP standards)

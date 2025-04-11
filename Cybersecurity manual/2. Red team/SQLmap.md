@@ -1,4 +1,4 @@
-# 🐍 SQLMap Cheat Sheet 
+# SQLMap Cheat Sheet 
 
 ##  Commandes les plus utiles
 

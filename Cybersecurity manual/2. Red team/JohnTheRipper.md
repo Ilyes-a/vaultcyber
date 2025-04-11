@@ -1,4 +1,4 @@
-# 🔐 John the Ripper Cheat Sheet 
+# John the Ripper Cheat Sheet 
 
 ##  Commandes les plus utiles
 

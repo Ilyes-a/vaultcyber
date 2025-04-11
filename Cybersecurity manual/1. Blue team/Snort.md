@@ -1,4 +1,4 @@
-# 🛡️ **Snort Cheat Sheet - IDS/IPS**
+#  *Snort Cheat Sheet - IDS/IPS*
 
 ## 📜 **Commandes Clés**
 
@@ -15,7 +15,11 @@ et sur un fichier pcap :
 snort -c local.rules -A full -l . -r fichier.pcap
 ```
 
+Run snort en IPS mode, sur interface eth0 et eth1 en mode console:
 
+```
+sudo snort -c /etc/snort/snort.conf -q -Q --daq afpacket -i eth0:eth1 -A console
+```
 
 # Détails
 

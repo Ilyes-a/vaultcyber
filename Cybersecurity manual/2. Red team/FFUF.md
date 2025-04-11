@@ -1,4 +1,4 @@
-# 🦍 FFUF Cheat Sheet 
+#  FFUF Cheat Sheet 
 
 ##  Commandes les plus utiles
 

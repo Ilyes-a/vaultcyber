@@ -1,4 +1,4 @@
-# 🦾 Hydra
+#  Hydra
 
 ##  Commandes les plus utiles
 ➡️ Brute force sur un login HTTP (formulaire classique)

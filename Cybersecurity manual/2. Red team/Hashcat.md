@@ -1,4 +1,4 @@
-# 🔐 Hashcat Cheat Sheet 
+#  Hashcat Cheat Sheet 
 
 ##  **Outils utiles pour Hashcat**
 

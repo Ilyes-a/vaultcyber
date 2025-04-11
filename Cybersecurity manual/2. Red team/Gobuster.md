@@ -1,4 +1,4 @@
-# 🦍 Gobuster Cheat Sheet 
+#  Gobuster Cheat Sheet 
 
 ##  Commandes les plus utiles
 ➡️ Fuzz de répertoires (mode dir)
