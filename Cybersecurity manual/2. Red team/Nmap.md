@@ -1,52 +1,53 @@
 #  Nmap Cheat Sheet 
 
 ##  Commandes les plus utiles
-➡️ Scan de base (ports TCP standards)
+
+#### Scan de base (ports TCP standards)
 ```
 nmap <IP>
 ```
 
-➡️ Scan furtif (SYN), **tous les ports**, rapide (⚡)
+####  Scan furtif (SYN), **tous les ports**, rapide (⚡)
 ```
 nmap -sS -p- -T4 <IP>
 ```
 
-➡️ Scan UDP des 100 ports les + communs
+####  Scan UDP des 100 ports les + communs
 ```
 nmap -sU --top-ports 100 -T4 <IP>
 ```
 
-➡️ **Scan complet** : détection OS, version, traceroute, scripts
+#### **Scan complet** : détection OS, version, traceroute, scripts
 ```
 nmap -sS -sV -A -T4 <IP>
 ```
 
-➡️ **Pas de ping, pas de DNS**, rapide et direct
+####  **Pas de ping, pas de DNS**, rapide et direct
 ```
 nmap -Pn -n -sS -T4 <IP>
 ```
 
-➡️ Scan en masse depuis un fichier, export en `.txt`
+####  Scan en masse depuis un fichier, export en `.txt`
 ```
 nmap -iL ips.txt -oN result.txt
 ```
 
-➡️ Scan de vulnérabilités avec les scripts NSE
+#### Scan de vulnérabilités avec les scripts NSE
 ```
 nmap --script vuln <IP>
 ```
 
-➡️ Enumération HTTP ciblée sur ports web
+#### Enumération HTTP ciblée sur ports web
 ```
 nmap -p 80,443,8080 --script http-enum <IP>
 ```
 
-➡️ Info sur OS via SMB (Windows)
+#### Info sur OS via SMB (Windows)
 ```
 nmap --script smb-os-discovery.nse -p 445 <IP>
 ```
 
-➡️ Analyse des **chiffrements SSL/TLS**
+####  Analyse des **chiffrements SSL/TLS**
 ```
 nmap -sV --script ssl-enum-ciphers -p 443 <IP>
 ```

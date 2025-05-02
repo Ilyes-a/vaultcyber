@@ -2,68 +2,67 @@
 
 ##  Commandes les plus utiles
 
-➡️ Cracker un fichier hash (MD5) avec une wordlist
+####  Cracker un fichier hash (MD5) avec une wordlist
 ```
 john --wordlist=/path/to/wordlist.txt --format=raw-md5 hash.txt
 ```
 
-➡️ Cracker un hash SHA256
+####  Cracker un hash SHA256
 ```
 john --wordlist=/path/to/wordlist.txt --format=raw-sha256 hash.txt
 ```
 
-➡️ Cracker un hash bcrypt (plus lent)
+####  Cracker un hash bcrypt (plus lent)
 ```
 john --wordlist=/path/to/wordlist.txt --format=bcrypt hash.txt
 ```
 `
-➡️ Cracker avec des règles d’attaque pour les mots de passe complexes
+####  Cracker avec des règles d’attaque pour les mots de passe complexes
 ```
 john --wordlist=/path/to/wordlist.txt --rules --format=raw-md5 hash.txt
 ```
 
-➡️ Cracker un fichier `.zip` protégé par mot de passe
+#### Cracker un fichier `.zip` protégé par mot de passe
 ```
 john --wordlist=/path/to/wordlist.txt --format=zip --rules zipfile.zip
 ```
 
-➡️ Cracker un fichier `.pdf` protégé par mot de passe
+#### Cracker un fichier `.pdf` protégé par mot de passe
 ```
 john --wordlist=/path/to/wordlist.txt --format=pdf --rules file.pdf
 ```
 
-➡️ Utiliser un fichier d'outils de brute-force avec des attaques par combinaison
+#### Utiliser un fichier d'outils de brute-force avec des attaques par combinaison
 ```
 john --wordlist=/path/to/wordlist.txt --rules --incremental --format=raw-md5 hash.txt
 ```
 
-➡️ Cracker un hash NTLM pour les mots de passe Windows
+#### Cracker un hash NTLM pour les mots de passe Windows
 ```
 john --wordlist=/path/to/wordlist.txt --format=nt hash.txt
 ```
 
-➡️ Vérifier le statut de cracking (les progressions)
+#### Vérifier le statut de cracking (les progressions)
 ```
 john --status
 ```
 
-➡️ Sauvegarder l'état d'une session pour continuer plus tard
+####  Sauvegarder l'état d'une session pour continuer plus tard
 ```
 john --session=mysession --restore
 ```
 
-➡️ Utiliser un fichier de hachages combinés (multi-hash)
+#### Utiliser un fichier de hachages combinés (multi-hash)
 ```
 john --wordlist=/path/to/wordlist.txt --format=raw-md5 hash1.txt hash2.txt
 ```
 
-➡️ Appliquer un dictionnaire inversé pour un mot de passe compliqué (reverse brute-force)
+#### Appliquer un dictionnaire inversé pour un mot de passe compliqué (reverse brute-force)
 ```
 john --wordlist=/path/to/wordlist.txt --rules --format=raw-md5 --reverse hash.txt
 ```
 
-
-➡️ Cracker des hachages des comptes **shadow** sur Linux
+#### Cracker des hachages des comptes **shadow** sur Linux
 ```
 john --wordlist=/path/to/wordlist.txt --format=shadow /etc/shadow
 ```

