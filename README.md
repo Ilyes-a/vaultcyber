@@ -14,4 +14,4 @@ Le vault inclut :
    ```bash
    git clone https://github.com/Ilyes-a/vaultcyber.git
    ```
-2. Ouvrez avec Obsidian pour explorer les notes.   
+2. Ouvrez avec Obsidian pour explorer mes notes.   
