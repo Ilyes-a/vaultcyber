@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c84d03041c47875f",
+            "id": "67ceacb953f1d74e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity manual/DevSecOps/Untitled.md",
+                "file": "Cybersecurity manual/2. Red team/1. LISTE Framework&Outils.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "1. LISTE Framework&Outils"
             }
           }
         ]
@@ -35,26 +35,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f26a380b3c9a7de4",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
-          },
-          {
             "id": "f1c7ddc460232b46",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -73,8 +60,22 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "54e98fd6d7390a0e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -150,13 +151,23 @@
               "icon": "lucide-list",
               "title": "Outline of README"
             }
+          },
+          {
+            "id": "1fdf9a0e19359fbf",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,20 +176,16 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "custom-sort:Toggle custom sorting": false,
+      "obsidian-importer:Open Importer": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "c84d03041c47875f",
+  "active": "67ceacb953f1d74e",
   "lastOpenFiles": [
-    "Cybersecurity manual/1. Blue team/zeek.md",
-    "Cybersecurity manual/DevSecOps/Untitled.md",
-    "Cybersecurity manual/1. Blue team/Yara.md",
-    "Cybersecurity manual/1. Blue team/Splunk.md",
-    "Cybersecurity manual/1. Blue team/Snort.md",
-    "Cybersecurity manual/1. Blue team/OpenCTI.md",
-    "Cybersecurity manual/1. Blue team/Nessus tenable.md",
-    "Cybersecurity manual/1. Blue team/1. LISTE Framework&Outils.md",
-    "Cybersecurity manual/2. Red team/1. LISTE Framework&Outils.md",
+    "Cybersecurity manual/2. Red team/2. OWASP TOP10.md",
     "Cybersecurity manual/2. Red team/aircrack.md",
     "Cybersecurity manual/2. Red team/Cyberchef.md",
     "Cybersecurity manual/2. Red team/FFUF.md",
@@ -186,16 +193,24 @@
     "Cybersecurity manual/2. Red team/Hashcat.md",
     "Cybersecurity manual/2. Red team/Hydra.md",
     "Cybersecurity manual/2. Red team/JohnTheRipper.md",
+    "Cybersecurity manual/2. Red team/Linpeas.md",
     "Cybersecurity manual/2. Red team/medusa.md",
-    "Cybersecurity manual/2. Red team/Metasploit.md",
     "Cybersecurity manual/2. Red team/Mimikatz.md",
-    "Cybersecurity manual/2. Red team/Nmap.md",
-    "Cybersecurity manual/2. Red team/OWASP TOP 10.md",
-    "Cybersecurity manual/2. Red team/SQLmap.md",
     "Cybersecurity manual/2. Red team/wpscan.md",
-    "Cybersecurity manual/1. Blue team/Zeek_Cheat_Sheet.md",
-    "Cybersecurity manual/1. Blue team/Zeek.md",
-    "Cybersecurity manual/1. Blue team/SOC details/Untitled.md",
+    "Cybersecurity manual/2. Red team/SQLmap.md",
+    "Cybersecurity manual/2. Red team/retire.js.md",
+    "Cybersecurity manual/2. Red team/OWAS.md",
+    "Cybersecurity manual/2. Red team/nuclei.md",
+    "Cybersecurity manual/2. Red team/Nmap.md",
+    "Cybersecurity manual/2. Red team/Metasploit.md",
+    "Cybersecurity manual/2. Red team/1. LISTE Framework&Outils.md",
+    "Cybersecurity manual/1. Blue team/1. LISTE Framework&Outils.md",
+    "Cybersecurity manual/1. Blue team/Cyberchef.md",
+    "Cybersecurity manual/1. Blue team/Brim.md",
+    "Cybersecurity manual/1. Blue team/zeek.md",
+    "Cybersecurity manual/1. Blue team/Untitled.md",
+    "Cybersecurity manual/1. Blue team/Yara.md",
+    "Cybersecurity manual/1. Blue team/Snort.md",
     "Cybersecurity manual/DevSecOps",
     "Cybersecurity manual/1. Blue team/Vrac",
     "assets/Pasted image 20250408203524.png",
