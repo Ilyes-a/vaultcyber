@@ -45,14 +45,17 @@ cat <log_file> | zeek-cut <field_names>
 
 ### 2. **Rechercher des mots-clés dans les logs Zeek**
 ```bash
-cat <log_file> | grep 'keywords'
+cat <log_file> | grep -i 'keywords' 
 ```
 
 ### 3. **Appliquer des filtres et trier les résultats**
+commencer par un head pour voir comment la data est triée
+
 ```bash
 cat <log_file> | sort | uniq   # Trier et éliminer les doublons
 cat <log_file> | sort -n      # Trier numériquement
 cat <log_file> | uniq -c     # Compter les occurrences
+cat <log_file> | wc -l (compter occurence)
 ```
 
 ### 4. **Combiner les commandes `grep` et `awk` pour une recherche avancée**
@@ -80,6 +83,11 @@ cat <log_file> | zeek-cut -d, id.orig_h,id.resp_h,duration > filtered_logs.csv
 
 ### 2. **Logs de fichiers** (analyse des fichiers transférés)
 - Exemple de logs : `files.log`, `pe.log`, `x509.log`
+
+<span style="color:rgb(192, 0, 0)">Afficher les fichiers :</span> 
+```
+cat files.log | zeek-cut fuid conn_uids tx_hosts rx_hosts mime_type extracted | nl
+```
 
 ### 3. **Logs de contrôle réseau** (contrôle et gestion du réseau)
 - Exemple de logs : `netcontrol.log`, `openflow.log`
