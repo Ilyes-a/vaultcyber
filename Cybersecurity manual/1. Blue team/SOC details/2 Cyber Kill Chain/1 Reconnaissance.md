@@ -1,12 +1,9 @@
 # Reconnaissance
 
-Reconnaissance is discovering and collecting information on a system and the victim. It is the planning phase for the adversaries.
+### 1. **Reconnaissance**
 
-[OSINT](https://www.varonis.com/blog/what-is-osint) (Open Source Intelligence) is also a part of Reconnaissance. By
-OSINT, We need to collect information such as ==company's size, email addresses, phone numbers== from publicly available resources.
-
-One OSINT Method - **Email Harvesting**
-**Email harvesting** is the process of obtaining email addresses from public, paid, or free services.
+**But :** Collecter des infos sur la cible.  
+**Exemple :** Scraper LinkedIn pour trouver des noms et postes internes à l'entreprise.
 
 > [!Tool] Tools: #tool
 > 

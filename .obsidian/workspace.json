@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "67ceacb953f1d74e",
+            "id": "c5598fa81ea9c2b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity manual/2. Red team/1. LISTE Framework&Outils.md",
+                "file": "Cybersecurity manual/1. Blue team/1.Framework&Outils&Modèles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. LISTE Framework&Outils"
+              "title": "1.Framework&Outils&Modèles"
             }
           }
         ]
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 297.5
   },
   "right": {
     "id": "36cd25c1e6332f1b",
@@ -167,7 +167,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,34 +184,35 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "67ceacb953f1d74e",
+  "active": "c5598fa81ea9c2b0",
   "lastOpenFiles": [
-    "Cybersecurity manual/2. Red team/OWAS.md",
-    "Cybersecurity manual/2. Red team/1. LISTE Framework&Outils.md",
-    "Cybersecurity manual/2. Red team/2. OWASP TOP10.md",
-    "Cybersecurity manual/2. Red team/aircrack.md",
-    "Cybersecurity manual/2. Red team/Cyberchef.md",
-    "Cybersecurity manual/2. Red team/FFUF.md",
-    "Cybersecurity manual/2. Red team/Gobuster.md",
-    "Cybersecurity manual/2. Red team/Hashcat.md",
-    "Cybersecurity manual/2. Red team/Hydra.md",
-    "Cybersecurity manual/2. Red team/JohnTheRipper.md",
-    "Cybersecurity manual/2. Red team/Linpeas.md",
-    "Cybersecurity manual/2. Red team/medusa.md",
-    "Cybersecurity manual/2. Red team/Mimikatz.md",
-    "Cybersecurity manual/2. Red team/wpscan.md",
-    "Cybersecurity manual/2. Red team/SQLmap.md",
-    "Cybersecurity manual/2. Red team/retire.js.md",
-    "Cybersecurity manual/2. Red team/nuclei.md",
-    "Cybersecurity manual/2. Red team/Nmap.md",
-    "Cybersecurity manual/2. Red team/Metasploit.md",
-    "Cybersecurity manual/1. Blue team/1. LISTE Framework&Outils.md",
+    "Cybersecurity manual/1. Blue team/Splunk.md",
+    "Cybersecurity manual/1. Blue team/splunk_cheatsheet_reformated_part.md",
+    "Cybersecurity manual/1. Blue team/LOLBins.md",
     "Cybersecurity manual/1. Blue team/Cyberchef.md",
-    "Cybersecurity manual/1. Blue team/Brim.md",
-    "Cybersecurity manual/1. Blue team/zeek.md",
-    "Cybersecurity manual/1. Blue team/Untitled.md",
-    "Cybersecurity manual/1. Blue team/Yara.md",
+    "Cybersecurity manual/1. Blue team/Elastic search.md",
+    "Cybersecurity manual/1. Blue team/Suspects commands.md",
     "Cybersecurity manual/1. Blue team/Snort.md",
+    "assets/Snort Cheatsheet - TryHackMe.pdf",
+    "Cybersecurity manual/1. Blue team/osquery.md",
+    "Cybersecurity manual/1. Blue team/OpenCTI.md",
+    "Cybersecurity manual/1. Blue team/Nessus tenable.md",
+    "Cybersecurity manual/1. Blue team/Brim.md",
+    "Cybersecurity manual/1. Blue team/1.Framework&Outils&Modèles.md",
+    "Cybersecurity manual/1. Blue team/kibana_search_cheatsheet.md",
+    "Cybersecurity manual/1. Blue team/windows_event_logs.md",
+    "Cybersecurity manual/1. Blue team/sysmon.md",
+    "Cybersecurity manual/DevSecOps/Untitled.md",
+    "Cybersecurity manual/1. Blue team/SOC details/2 Cyber Kill Chain/0 Intro & Kill Chain.md",
+    "Cybersecurity manual/1. Blue team/SOC details/2 Cyber Kill Chain/6 Command & Control.md",
+    "Cybersecurity manual/1. Blue team/SOC details/2 Cyber Kill Chain/5 Installation.md",
+    "Cybersecurity manual/1. Blue team/SOC details/2 Cyber Kill Chain/4 Exploitation.md",
+    "Cybersecurity manual/1. Blue team/SOC details/2 Cyber Kill Chain/3 Delivery.md",
+    "Cybersecurity manual/1. Blue team/SOC details/2 Cyber Kill Chain/2 Weaponization.md",
+    "Cybersecurity manual/1. Blue team/SOC details/2 Cyber Kill Chain/1 Reconnaissance.md",
+    "Cybersecurity manual/1. Blue team/SOC details/2 Cyber Kill Chain/7 Action on Objectives.md",
+    "Cybersecurity manual/1. Blue team/Tshark.md",
+    "Cybersecurity manual/1. Blue team/tshark",
     "Cybersecurity manual/DevSecOps",
     "Cybersecurity manual/1. Blue team/Vrac",
     "assets/Pasted image 20250408203524.png",
@@ -223,8 +225,6 @@
     "Cybersecurity manual",
     "OUTILS",
     "COURS",
-    "OUTILS/SOC/Untitled",
-    "OUTILS/SOC",
     "assets/Pasted image 20240729232521.png",
     "assets/Pasted image 20240729232308.png",
     "assets/Pasted image 20240729230955.png",

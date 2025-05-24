@@ -2,5 +2,6 @@
   "showInlineTitle": false,
   "attachmentFolderPath": "assets",
   "useTab": true,
-  "showIndentGuide": false
+  "showIndentGuide": false,
+  "promptDelete": false
 }

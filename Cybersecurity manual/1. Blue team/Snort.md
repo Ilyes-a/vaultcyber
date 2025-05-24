@@ -1,8 +1,6 @@
 #  *Snort- IDS/IPS*
 
 ## **Commandes Clés**
-
-
 Commande Lancer snort avec un fichier de config et le mode full avec le log qui s'écrit dans le directory actif :
 
 ```
