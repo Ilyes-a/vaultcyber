@@ -1,3 +1,4 @@
+
 ### **1. Elasticsearch**
 → **<span style="color:rgb(240, 240, 117)">Base de données</span> NoSQL qui **stocke et analyse les logs** au format JSON.  
 🧠 Sert à rechercher, corréler, filtrer les événements via API REST.
