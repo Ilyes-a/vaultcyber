@@ -1,23 +1,23 @@
 
 ### **1. Elasticsearch**
 → **<span style="color:rgb(240, 240, 117)">Base de données</span> NoSQL qui **stocke et analyse les logs** au format JSON.  
-🧠 Sert à rechercher, corréler, filtrer les événements via API REST.
+ Sert à rechercher, corréler, filtrer les événements via API REST.
 
 ---
 ### **2. Logstash**
 
 → **<span style="color:rgb(240, 240, 117)">Pipeline de traitement</span> qui **ingère**, **filtre**, puis **envoie** les données (ex : vers Elasticsearch).  
-⚙️ Fonctionne avec des blocs : `input`, `filter`, `output`.
+ Fonctionne avec des blocs : `input`, `filter`, `output`.
 
 ---
 ### **3. Beats**
 → **<span style="color:rgb(240, 240, 117)">Agents légers</span> installés sur les machines pour **collecter et envoyer les données** (ex : logs Windows, paquets réseau) vers Logstash ou Elasticsearch.  
-📦 Chaque Beat a un rôle précis (Winlogbeat, Packetbeat...).
+ Chaque Beat a un rôle précis (Winlogbeat, Packetbeat...).
 
 ---
 ### **4. Kibana**
 → I<span style="color:rgb(240, 240, 117)">nterface web</span> de visualisation** connectée à Elasticsearch.  
-📊 Sert à créer des dashboards, faire des recherches et des graphiques en temps réel.
+ Sert à créer des dashboards, faire des recherches et des graphiques en temps réel.
 
 # Kibana Search Query Cheat Sheet
 

@@ -5,13 +5,13 @@ Brim est une interface graphique sur Kali Linux permettant d'explorer, filtrer e
 
 ##  Requêtes de Base
 
-### 📊 Vue d’ensemble des logs
+###  Vue d’ensemble des logs
 ```zeek
 count() by _path
 ```
  Donne un aperçu global des types de logs présents dans le fichier.
 
-### 🪟 Activité réseau Windows (SMB, RPC)
+###  Activité réseau Windows (SMB, RPC)
 ```zeek
 _path=="smb_mapping" or _path=="smb_files" or _path=="dce_rpc"
 ```
@@ -23,7 +23,7 @@ _path=="conn" | cut id.orig_h, id.resp_p, id.resp_h | sort | uniq
 ```
  Liste toutes les connexions distinctes pour détecter des anomalies.
 
-### 📡 Requêtes DNS & Méthodes HTTP
+###  Requêtes DNS & Méthodes HTTP
 ```zeek
 _path=="dns" | count() by query | sort -r
 _path=="http" | count() by method | sort -r
@@ -36,7 +36,7 @@ filename != null
 ```
 Détecte les transferts ou fuites de fichiers suspects.
 
-### 🧮 Statistiques par sous-réseau IP
+###  Statistiques par sous-réseau IP
 ```zeek
 _path=="conn" | put classnet := network_of(id.resp_h) | count() by classnet | sort -r
 ```

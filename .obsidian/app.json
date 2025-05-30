@@ -3,5 +3,6 @@
   "attachmentFolderPath": "assets",
   "useTab": true,
   "showIndentGuide": false,
-  "promptDelete": false
+  "promptDelete": false,
+  "alwaysUpdateLinks": true
 }

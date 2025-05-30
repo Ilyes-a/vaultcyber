@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b6406bfa07eae77b",
+        "id": "8d90cce1e9f4d60e",
         "type": "tabs",
         "children": [
           {
-            "id": "f774d925bf6c18c1",
+            "id": "80aea78a1a5d0d24",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cybersecurity manual/1. Blue team/1.Framework&Outils&Modèles.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "1.Framework&Outils&Modèles"
+              "title": "New tab"
             }
           }
         ]
@@ -184,18 +180,27 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f774d925bf6c18c1",
+  "active": "80aea78a1a5d0d24",
   "lastOpenFiles": [
-    "Cybersecurity manual/1. Blue team/Windows Forensics.md",
-    "Cybersecurity manual/1. Blue team/1.Framework&Outils&Modèles.md",
-    "VOIR DETAIL ICI 🖱️.md",
-    "Cybersecurity manual/1. Blue team/Brim.md",
-    "Cybersecurity manual/1. Blue team/Commandes SUS.md",
-    "Cybersecurity manual/1. Blue team/Cyberchef.md",
-    "Cybersecurity manual/1. Blue team/Elastic search.md",
-    "Cybersecurity manual/1. Blue team/EventID.md",
-    "Cybersecurity manual/1. Blue team/HKEY register.md",
     "Cybersecurity manual/1. Blue team/LOLBINS_LOLBAS.md",
+    "README.md",
+    "Cybersecurity manual/1. Blue team/Forensics Linux.md",
+    "Sysmon.md",
+    "Cybersecurity manual/1. Blue team/Linux_Forensics_CheatSheet (1).md",
+    "Cybersecurity manual/1. Blue team/utilscommands.md",
+    "Cybersecurity manual/1. Blue team/Forensics Windows.md",
+    "Cybersecurity manual/1. Blue team/Commandes SUS.md",
+    "Cybersecurity manual/1. Blue team/1.Framework&Outils&Modèles.md",
+    "Cybersecurity manual/1. Blue team/zeek.md",
+    "Cybersecurity manual/1. Blue team/linux_forensics_cheat_sheet.md",
+    "Cybersecurity manual/1. Blue team/HKEY register.md",
+    "Cybersecurity manual/1. Blue team/Brim.md",
+    "Cybersecurity manual/2. Red team/2. OWASP TOP10.md",
+    "Cybersecurity manual/2. Red team/1. LISTE Framework&Outils.md",
+    "Cybersecurity manual/1. Blue team/EventID.md",
+    "Cybersecurity manual/1. Blue team/Elastic search.md",
+    "Cybersecurity manual/1. Blue team/Cyberchef.md",
+    "VOIR DETAIL ICI 🖱️.md",
     "Cybersecurity manual/1. Blue team/Nessus tenable.md",
     "Cybersecurity manual/1. Blue team/OpenCTI.md",
     "Cybersecurity manual/1. Blue team/osquery.md",
@@ -203,15 +208,6 @@
     "Cybersecurity manual/1. Blue team/Splunk.md",
     "Cybersecurity manual/1. Blue team/Tshark.md",
     "Cybersecurity manual/1. Blue team/Yara.md",
-    "Cybersecurity manual/1. Blue team/zeek.md",
-    "Cybersecurity manual/1. Blue team/HKEY registery.md",
-    "Cybersecurity manual/1. Blue team/cheat_sheet_registry_enriched.md",
-    "Cybersecurity manual/1. Blue team/sysmon.md",
-    "Cybersecurity manual/1. Blue team/Suspects commands.md",
-    "Cybersecurity manual/2. Red team/Hashcat.md",
-    "Cybersecurity manual/2. Red team/Gobuster.md",
-    "Cybersecurity manual/2. Red team/FFUF.md",
-    "Cybersecurity manual/2. Red team/aircrack.md",
     "assets/Snort Cheatsheet - TryHackMe.pdf",
     "Cybersecurity manual/1. Blue team/tshark",
     "Cybersecurity manual/DevSecOps",

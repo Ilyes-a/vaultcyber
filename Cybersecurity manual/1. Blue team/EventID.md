@@ -1,5 +1,6 @@
 
-# Windows Event Log & [[#Sysmon]]
+# Windows Event Log & [#Sysmon](#Sysmon)
+
 
 
 # Windows Event logs:
