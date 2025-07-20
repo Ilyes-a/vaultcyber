@@ -130,3 +130,4 @@ MFTECmd.exe -f <path-to-$MFT-file> --csv <path-to-save-results-in-csv>
 | Exécutable lancé via GUI (Menu démarrer, etc.) | Registry Explorer ou RECmd | UserAssist (NTUSER.DAT) |
 | Accès/Modif fichier NTFS                       | MFTECmd.exe, WxTCmd.exe    | $MFT / $UsnJrnl         |
 |                                                |                            |                         |
+efsqdzq D

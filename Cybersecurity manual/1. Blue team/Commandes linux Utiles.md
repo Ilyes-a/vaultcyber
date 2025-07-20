@@ -60,7 +60,7 @@ netstat -antp | awk '$6=="LISTEN"'  # Affiche les connexions à l’écoute
 
 ---
 
-## 🧱 Chaînage d’analyse (cas réels)
+##  Chaînage d’analyse (cas réels)
 
 ```bash
 cat /var/log/auth.log | grep 'sudo' | awk '{print $1, $2, $3, $9}' | sort | uniq -c | sort -nr
@@ -79,7 +79,7 @@ ps aux | grep -v grep | grep sshd | awk '{print $2}' | xargs kill -9
 
 ---
 
-## 🔁 Boucles utiles (bonus)
+##  Boucles utiles (bonus)
 
 ```bash
 for i in *.log; do echo "$i"; grep -i "error" "$i" | wc -l; done
@@ -87,6 +87,61 @@ for i in *.log; do echo "$i"; grep -i "error" "$i" | wc -l; done
 ```
 
 ---
+## 🔎 strings
+
+extrait toutes les chaînes ASCII imprimables d’un fichier binaire, utile pour révéler des artefacts cachés (URLs, user-agent, commandes, chemins…).  
+```
+strings sample.dmp | grep -i "user-agent"
+
+strings <fichier>
+strings <fichier> | more
+strings <fichier> > sortie.txt
+```
+
+**À noter** :  
+`!This program cannot be run in DOS mode.` → indique que le fichier est un exécutable PE (stub DOS par défaut).
+
+
+> Permet d’identifier des fonctions API, URLs, messages, etc.
+
+---
+### Identifier le type de fichier
+```bash
+file <nom_fichier>
+```
+> Exemple : `PE32 executable (GUI) Intel 80386, for MS Windows`
+---
+
+## Hasher un échantillon
+```bash
+md5sum <fichier>
+sha1sum <fichier>
+sha256sum <fichier>
+```
+---
+
+###  Analyse PE Header avec `pecheck`
+```bash
+pecheck <fichier>
+```
+
+- Affiche : sections, entropie, imports, hash, flags suspicieux, etc.
+- Sections typiques :
+  - `.text` : Code exécutable (instructions CPU)
+  - `.data` : Données globales
+  - `.rsrc` : Ressources embarquées (icônes, images, etc.)
+  - `.rdata` : Données en lecture seule
+
+> Entropie > 7.0 → fichier potentiellement packé.
+
+###  pe-tree – Analyse interactive des fichiers PE
+```bash
+pe-tree <fichier>
+```
+Ouvre une interface graphique interactive (TreeView) pour explorer la structure PE : sections, imports/exports, entropie, headers, etc.
+
+
+
 
 ## 🛠️ Tips
 

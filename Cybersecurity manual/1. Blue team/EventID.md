@@ -1,8 +1,6 @@
 
 # Windows Event Log & [#Sysmon](#Sysmon)
 
-
-
 # Windows Event logs:
 ## 1. Emplacement & Format des Logs
 
